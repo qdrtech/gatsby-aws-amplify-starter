@@ -6,7 +6,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # amplify files
-amplify
 src/aws-exports.js
 
 
