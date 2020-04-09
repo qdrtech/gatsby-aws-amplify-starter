@@ -5,8 +5,14 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+
 # amplify files
 src/aws-exports.js
+amplify/\#current-cloud-backend
+amplify/.config/local-*
+amplify/backend/amplify-meta.json
+aws-exports.js
+awsconfiguration.json
 
 
 # Runtime data
