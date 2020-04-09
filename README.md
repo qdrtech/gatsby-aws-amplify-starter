@@ -74,4 +74,4 @@ Kick off your project with this default boilerplate. This project ships with the
 
 ## 🎓 Visit Tutorial
 
-Looking for more guidance? Full tutorial on how to setup a project here [on the website #qdr_tech](http://qdrtech.com/blog/gatsby-react-aws-amplify). 
+Looking for more guidance? Full tutorial on how to setup a project here [on the website (#qdr_tech)](http://qdrtech.com/blog/gatsby-react-aws-amplify). 
