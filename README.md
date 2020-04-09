@@ -1,12 +1,13 @@
+<a href="http://qdrtech.com">
+    <h1 class="text-center">#qdr_tech</h1>
+</a>
 <h1 align="center">
-  Gatsby's AWS Amplify Starter Project
+  Gatsby AWS Amplify Starter Project
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+Kick off your project with this default boilerplate. This project ships with the main Gatsby ans AWS Amplify configuration files you will need to get up and running blazing fast with the blazing fast app generator for React.
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
-
-## 🚀 Quick start
+## 🚀 Start
 
 1.  **Create a Gatsby site.**
 
@@ -17,14 +18,49 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     gatsby new new-gatsby-site https://github.com/qdradford/gatsby-starter-aws-amplify
     ```
 
-1.  **Start developing.**
+1.  **Install node_modules.**
 
-    Navigate into your new site’s directory and start it up.
+    Navigate into your new site’s directory and install node_modules.
 
     ```shell
     cd new-gatsby-site/
-    gatsby develop
+    yarn
+    # or
+    npm install
     ```
+
+1.  **Install and Configure AWS Amplify CLI**
+
+    Insatll AWS Amplify CLI and Configure.
+
+    ```shell
+    npm install -g @aws-amplify/cli
+    amplify configure
+    ```
+
+1.  **Iniitalize AWS Amplify project**
+
+    Initialize Project with AWS Amplify.
+
+    ```shell
+    amplify init
+    ```    
+
+1.  **Push Amplify Project**
+
+    Create reources in AWS for Amplify project
+
+    ```shell
+    amplify push
+    ``` 
+
+1.  **Start Developing**
+
+    Start gatsby development server.
+
+    ```shell
+    gatsby develop
+    ```           
 
 1.  **Open the source code and start editing!**
 
@@ -34,29 +70,8 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     Open the `new-gatsby-site` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-## 🧐 What's inside?
+# Having Issues ?
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+## 🎓 Visit Tutorial
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
-
-## 🎓 Learning Gatsby
-
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
+Looking for more guidance? Full tutorial on how to setup a project here [on the website #qdr_tech](http://qdrtech.com/blog/gatsby-react-aws-amplify). 
