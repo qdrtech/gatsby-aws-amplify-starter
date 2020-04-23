@@ -5,7 +5,7 @@
   Gatsby AWS Amplify Starter Project
 </h1>
 
-Kick off your project with this default boilerplate. This project ships with the main Gatsby ans AWS Amplify configuration files you will need to get up and running blazing fast with the blazing fast app generator for React.
+This project ships with Gatsby + AWS Amplify configuration files you will need to get up and running at light speed. 
 
 ## 🚀 Start
 
